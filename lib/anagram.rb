@@ -8,6 +8,7 @@ class Anagram
 
   def match(anagram_array)
     anagram_array.select do |anagram|
+      anagram.split("")
     end
 
     #iterate through each anagram array
