@@ -19,3 +19,5 @@ class Anagram
   end
 
 end
+
+test = Anagram.new("indy")
