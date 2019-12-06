@@ -12,13 +12,6 @@ class Anagram
     anagram_array.select do |anagram|
       anagram.split("").sort == word.split("").sort
     end
-
-    #iterate through each anagram array
-    #during each item split and sort if it matches word.split.sort select it?
   end
-
+  
 end
-
-test = Anagram.new("indy")
-
-test.match(["toast", "diny", "pink", "drought", "nidy"])
