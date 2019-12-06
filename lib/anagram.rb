@@ -21,3 +21,5 @@ class Anagram
 end
 
 test = Anagram.new("indy")
+
+test.match(["toast", "diny", "pink", "drought", "nidy"])
